@@ -1,0 +1,37 @@
+Button .active {
+    background-color: #a4f5da;
+}
+
+.parent-div {
+     display: flex;
+     
+     
+}
+
+.child-div {
+   float: left;
+   margin: 2px;
+}
+
+.child-size {
+   font-size: 10px;
+   font-weight: lighter;
+}
+
+.next-child-size {
+    font-size: 13px;
+    
+}
+
+@media (max-width: 576px) {
+
+    .parent-div {
+        display: grid;    
+   }
+
+   .child-div {
+    display: inline-block;
+ }
+
+}
+
